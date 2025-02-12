@@ -38,6 +38,7 @@ const Inventory = () => {
     { id: "table", label: "Table" },
     { id: "sugar", label: "Sugar" },
     { id: "chair", label: "Chair" },
+    { id: "hammer", label: "Hammer" },
   ];
 
   const filteredItems = inventoryItems.filter((item) =>
